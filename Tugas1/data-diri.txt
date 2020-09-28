@@ -1,3 +1,4 @@
-nama:seno agung pradityo
-alamat: jakarta
-pekerjaan:programmer
+1. Nama: Seno Agung Pradityo
+2. Email: senoagung27@gmail.com
+3. Akun Github: https://github.com/senoagung27
+4. Akun Telegram: https://t.me/Seno_agung
