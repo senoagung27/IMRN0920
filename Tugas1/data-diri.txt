@@ -1,0 +1,3 @@
+nama:seno agung pradityo
+alamat: jakarta
+pekerjaan:programmer
