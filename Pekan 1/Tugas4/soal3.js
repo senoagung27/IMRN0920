@@ -1,15 +1,15 @@
 function introduce(nama, umur, alamat, hoby) {
-    return (
-        "Nama saya " +
-        nama +
-        ", umur saya " +
-        umur +
-        " tahun, alamat saya di " +
-        alamat +
-        ", dan saya punya hobby yaitu " +
-        hoby +
-        "!"
-    );
+  return (
+    "Nama saya " +
+    nama +
+    ", umur saya " +
+    umur +
+    " tahun, alamat saya di " +
+    alamat +
+    ", dan saya punya hobby yaitu " +
+    hoby +
+    "!"
+  );
 }
 
 var name = "Seno Agung Pradityo";

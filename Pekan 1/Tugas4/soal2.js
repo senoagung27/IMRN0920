@@ -1,5 +1,5 @@
 function kalikan(a, b) {
-    return a * b;
+  return a * b;
 }
 
 var num1 = 12;
