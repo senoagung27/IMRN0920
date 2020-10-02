@@ -1,18 +1,15 @@
-console.log("Nomor 1");
-console.log();
-
-var bil = 0;
+var angka = 0;
 
 console.log("LOOPING PERTAMA");
-while(bil<20){
-    bil+=2;
-    console.log(String(bil), " - I love coding");
+while (angka < 20) {
+  angka += 2;
+  console.log(String(angka), " - I love coding");
 }
 
 console.log("LOOPING KEDUA");
-while(bil>0){
-    console.log(String(bil), " - I will become a mobile developer");
-    bil-=2;
+while (angka > 0) {
+  console.log(String(angka), " - I will become a mobile developer");
+  angka -= 2;
 }
 
 console.log();
