@@ -1,4 +1,4 @@
-var readBooksPromise = require('./promise.js')
+import readBooksPromise from './promise.js';
  
 var books = [
     {name: 'LOTR', timeSpent: 3000}, 

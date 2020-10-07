@@ -14,4 +14,4 @@ function readBooks(time, book, callback ) {
     }, book.timeSpent)
 }
  
-module.exports = readBooks 
+export default readBooks 
