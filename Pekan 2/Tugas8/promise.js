@@ -15,4 +15,4 @@ function readBooksPromise (time, book) {
   })
 }
  
-module.exports = readBooksPromise
+export default readBooksPromise
