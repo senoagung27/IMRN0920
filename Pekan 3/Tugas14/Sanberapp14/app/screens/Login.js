@@ -4,7 +4,6 @@ import {
   ScrollView,
   View,
   Text,
-  Image,
   TextInput,
   Button,
 } from 'react-native';
@@ -13,7 +12,7 @@ const Login = () => {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Image source={require('../assets/logo.png')} />
+        {/* <Image source={require('../asset/logo.png')} /> */}
         <Text style={styles.logintext}>LOGIN</Text>
         <View style={styles.formgrup}>
           <Text style={styles.teksform}>Username</Text>

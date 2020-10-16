@@ -2,7 +2,7 @@ import React from 'react';
 import {
   View,
   Text,
-  Image,
+
   ScrollView,
   TextInput,
   StyleSheet,
@@ -13,7 +13,7 @@ const Daftar = () => {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Image source={require('../assets/logo.png')} />
+        {/* <Image source={require('../assets/logo.png')} /> */}
         <Text style={styles.logintext}>DAFTAR</Text>
         <View style={styles.formgrup}>
           <Text style={styles.teksform}>Username</Text>
@@ -37,7 +37,7 @@ const Daftar = () => {
           </Button>
           <Text style={styles.atau}>atau</Text>
           <Button style={styles.btnmasuk} title="Sudah punya akun">
-            <Text style={styles.textbt}> Sudah Punya AKun </Text>
+            <Text style={styles.textbt}> Sudah Punya Akun </Text>
           </Button>
         </View>
       </View>

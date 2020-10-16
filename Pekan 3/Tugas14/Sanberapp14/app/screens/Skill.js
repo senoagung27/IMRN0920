@@ -1,6 +1,6 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet, Platform, FlatList} from 'react-native';
-import data from '../assets/skillData.json';
+import {View, Text,  StyleSheet, Platform, FlatList} from 'react-native';
+import data from '../asset/skillData.json';
 
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IonIcon from 'react-native-vector-icons/Ionicons';
@@ -38,14 +38,14 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.logoView}>
-        <Image style={styles.logo} source={require('../assets/logo.png')} />
+        {/* <Image style={styles.logo} source={require('../assets/logo.png')} /> */}
       </View>
       <View style={styles.userView}>
         <View style={styles.iconUserView}>
           <FontAwesome5 name={'user-circle'} size={26} solid color="#3EC6FF" />
         </View>
         <View style={styles.userDetView}>
-          <Text style={styles.usernameText}>Kamaludin Khoir</Text>
+          <Text style={styles.usernameText}>Seno Agung Pradityo</Text>
         </View>
       </View>
       <Text style={styles.judul}>SKILL</Text>

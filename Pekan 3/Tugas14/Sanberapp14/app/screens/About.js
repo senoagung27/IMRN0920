@@ -14,7 +14,7 @@ const About = () => {
           color="#EFEFEF"
           style={styles.icon}
         />
-        <Text style={styles.nama}>Kamaludin Khoir</Text>
+        <Text style={styles.nama}>Seno Agung Pradityo</Text>
         <Text style={styles.profesi}>Programmer</Text>
         <View style={styles.box}>
           <Text style={styles.judulbox}>Portfolio</Text>
